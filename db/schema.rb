@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 1) do
 
-create_table "shows", force:cascade do |t|
+create_table "shows", force :cascade do |t|
     t.string "name"
     t.string "day"
     t.string "network"
