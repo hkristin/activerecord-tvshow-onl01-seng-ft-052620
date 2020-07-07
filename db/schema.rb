@@ -12,5 +12,5 @@
 
 ActiveRecord::Schema.define(version: 1) do
 
-create_table 
+create_table "shows", 
 end
