@@ -12,5 +12,7 @@
 
 ActiveRecord::Schema.define(version: 1) do
 
-create_table "shows", 
+create_table "shows", force:cascade do |t|
+  
+end
 end
